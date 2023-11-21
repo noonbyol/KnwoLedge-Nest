@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KnowledgeNest</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="">
+        </a>
+        <div class="header__elems">
+            <a href="#" class="you">
+                <span>My name </span>
+                <img src="images/user.png" alt="">
+            </a>
+            <a href="#" class="logout">Log out</a>
+        </div>
+    </header>
+
+        <nav class="nav__menu">
+            <ul class="nav__list">
+                <li><a href="#" class="nav__link"><i class="fas fa-home-lg-alt"></i>Homepage</a></li>
+                <li><a href="#" class="nav__link"><i class="fas fa-map-marker-alt"></i>News</a></li>
+                <li><a href="#" class="nav__link"><i class="fas fa-envelope"></i>Messages</a></li>
+            </ul>
+
+        </nav>
+    <div class="house__tringle">
+        <div class="progress yellow">
+            <span class="progress-left">
+                <span class="progress-bar"></span>
+            </span>
+            <span class="progress-right">
+                <span class="progress-bar"></span>
+            </span>
+            <div class="progress-value"><span class="time">0</span>%</div>
+        </div>
+    </div>
+    <div class="house__blocks">
+        <a href="lesson.html" class="house__block">economic knowledge</a>
+        <a href="lesson.html" class="house__block">foundations of the state</a>
+        <a href="lesson.html" class="house__block">basics of spirituality</a>
+        <a href="lesson.html" class="house__block">upbringing</a>
+        <a href="lesson.html" class="house__block">АЕ</a>
+        <a href="lesson.html" class="house__block">AER</a>
+        <a href="lesson.html" class="house__block">PE</a>
+    </div>
+    <div class="house">
+        <div class="house__left">
+            <a href="lesson.html" class="house__block">CHEMISTRY</a>
+            <a href="lesson.html" class="house__block">BIOLOGY</a>
+            <a href="lesson.html" class="house__block">MATHEMATICS</a>
+            <a href="lesson.html" class="house__block">PHYSICS</a>
+            <a href="lesson.html" class="house__block">FOREIGN LANGUAGE</a>
+            <a href="lesson.html" class="house__block">NATIVE LANGUAGE</a>
+        </div>
+        <a href="quiz.html" class="house__quiz"><div >interactive exersices</div></a>
+        <div class="house__right">
+            <a href="lesson.html" class="house__block">LITERATURE</a>
+            <a href="lesson.html" class="house__block">GEOGRAPHY</a>
+            <a href="lesson.html" class="house__block">DRAWING</a>
+            <a href="lesson.html" class="house__block">INFORMATICS</a>
+            <a href="lesson.html" class="house__block">TECHNOLOGY</a>
+            <a href="lesson.html" class="house__block">GEOMETRY</a>
+        </div>
+    </div>
+    <script>
+        const time = document.querySelector('.time');
+        function counter(){
+        if(time.textContent < 74) {
+            time.textContent++;
+            setTimeout(counter,34)
+        }
+        }counter()  
+    </script>
+</body>
+</html>

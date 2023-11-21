@@ -1,0 +1,93 @@
+body{
+    background: #89CFF3;
+}
+.login-container{
+    max-width: 1720px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-right: 200px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+}
+.text{
+    width: max-content;
+}
+.slogan{    
+    font-size: 25px;
+    text-transform: capitalize;
+    padding: 15px;
+    background: #ff9009cb;
+    color: #000;
+    font-weight: 500;
+    width: max-content;
+}
+.title{
+    margin-top: 20px;
+    font-weight: 800;
+    color: #fff;
+    font-size: 100px;
+    width: 100%;
+}
+.figures{
+    margin-top: 50px;
+    display: flex;
+    gap: 15px;
+}
+.tringle{
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid #f95959;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background: #ff9009cb;
+    border-radius: 50%;
+}
+.square{
+    width: 150px;
+    height: 50px;
+    background: rgba(22, 206, 22, 0.795);
+    margin: 120px 0px 0 50px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form__title{
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.form input{
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.form input::placeholder{
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.form button{
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+}
+.link{
+    text-transform: uppercase;
+    color: #000;
+    font-size: 20px;
+    background: rgb(219, 219, 219);
+    padding: 10px 15px;
+    border-radius: 10px;
+} 
